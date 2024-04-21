@@ -45,6 +45,6 @@ The convergence graph below illustrates the accuracy convergence over 100 iterat
 
 The distribution of target classes shows a balanced dataset with nine classes.
 
-![Best Parameters Table](https://github.com/SanyamGoyal401/Parameter-Optimization-SVM/blob/main/SVM-Distribution.png)
+![Best Parameters Table](https://github.com/SanyamGoyal401/Parameter-Optimization-SVM/blob/main/SVM-Table.png)
 
 The table showing Sample number, Best accuracy, Best C value, Best Gamma value, Best kernel
