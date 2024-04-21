@@ -43,8 +43,8 @@ def optimize_svm(X_train, y_train, X_test, y_test, iterations=100):
     convergence = []
     for _ in range(iterations):
         # Randomly sample SVM hyperparameters
-        C = np.round(np.random.uniform(0, 10000), 2)  # Penalty parameter C
-        gamma = np.round(np.random.uniform(0, 10000), 2)  # Kernel coefficient for 'rbf'
+        C = np.round(np.random.uniform(0, 100), 2)  # Penalty parameter C
+        gamma = np.round(np.random.uniform(0, 100), 2)  # Kernel coefficient for 'rbf'
         kernel = np.random.choice(['linear', 'rbf', 'sigmoid'])  # Randomly choose kernel function
 
         # Train SVM with sampled hyperparameters

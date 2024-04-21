@@ -18,29 +18,33 @@
 
 | Sample | Best Accuracy | C value | Gamma value | Kernel |
 |--------|---------------|---------|-------------|--------|
-| S1     | 0.997         | 9.48    | 2.91        | poly   |
-| S2     | 0.998         | 9.68    | 2.45        | poly   |
-| S3     | 0.998         | 8.76    | 2.09        | poly   |
-| S4     | 0.997         | 9.65    | 2.72        | poly   |
-| S5     | 0.998         | 9.43    | 2.14        | poly   |
-| S6     | 0.998         | 9.74    | 2.37        | poly   |
-| S7     | 0.998         | 9.92    | 1.75        | poly   |
-| S8     | 0.998         | 9.85    | 2.62        | poly   |
-| S9     | 0.998         | 9.79    | 1.91        | poly   |
-| S10    | 0.998         | 9.98    | 1.64        | poly   |
+| S1     | 0.98          | 42.71   | 92.8        | linear |
+| S2     | 0.97          | 45.15   | 96.94       | linear |
+| S3     | 0.99          | 45.29   | 68.84       | linear |
+| S4     | 0.97          | 89.93   | 43.02       | linear |
+| S5     | 0.96          | 96.12   | 79.59       | linear |
+| S6     | 0.97          | 81.09   | 82.53       | linear |
+| S7     | 0.98          | 86.9    | 72.67       | linear |
+| S8     | 0.97          | 52.05   | 61.66       | linear |
+| S9     | 0.98          | 16.92   | 31.86       | linear |
+| S10    | 0.97          | 2.2     | 89.36       | linear |
 
 ### Result Graph
 
 The convergence graph below illustrates the accuracy convergence over 100 iterations.
 
-![Convergence of SVM](convergence_plot.png)
+![Convergence of SVM](https://github.com/SanyamGoyal401/Parameter-Optimization-SVM/blob/main/SVM-Convergence.png)
 
 ### Additional Analytics
 
-- **Dataset Shape**: (8124, 22)
-- **Number of Classes**: 2
+- **Dataset Shape**: (5624, 64)
+- **Number of Classes**: 9
 - **Missing Values**: 0
 
-![Distribution of Target Classes](class_distribution.png)
+![Distribution of Target Classes](https://github.com/SanyamGoyal401/Parameter-Optimization-SVM/blob/main/SVM-Distribution.png)
 
-The distribution of target classes shows a balanced dataset with two classes.
+The distribution of target classes shows a balanced dataset with nine classes.
+
+![Best Parameters Table](https://github.com/SanyamGoyal401/Parameter-Optimization-SVM/blob/main/SVM-Distribution.png)
+
+The table showing Sample number, Best accuracy, Best C value, Best Gamma value, Best kernel
